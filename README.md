@@ -1,12 +1,53 @@
-# React + Vite
+# CarsCare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CarsCare is a web application that allows users to explore and filter cars based on various criteria such as company, model, and fuel type. It also provides a feature for users to manage a personalized wishlist of their favorite cars, with full CRUD (Create, Read, Update, Delete) functionality.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Car Filtering**: Easily filter cars by company, model, and fuel type to find exactly what you’re looking for.
+- **Wishlist Management**:
+  - Add your favorite cars to a wishlist.
+  - View your wishlist.
+  - Remove cars from the wishlist.
+  - Persistent storage of wishlist data using `localStorage`.
+- **Responsive Design**: Fully responsive interface, ensuring a seamless experience on all devices.
 
-## Expanding the ESLint configuration
+## Technologies Used 🛠️
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**:
+  - React.js
+  - TailwindCSS for styling
+- **State Management**:
+  - React Context API
+- **API**:
+  - Mock APIs for fetching car data
+- **Data Persistence**:
+  - `localStorage` for wishlist management
+- **Libraries**:
+  - React Query for data fetching and caching
+  - React Router for navigation
+ 
+## How It Works ⚙️
+
+1. **Explore Cars**:
+   - Navigate to the homepage to explore cars.
+   - Filter cars by company, model, and fuel type to narrow your search.
+
+2. **Manage Wishlist**:
+   - Add cars to your wishlist with a single click.
+   - Access your wishlist to view saved cars.
+   - Remove cars from the wishlist as needed.
+
+3. **Data Persistence**:
+   - Wishlist data is saved in the browser's `localStorage`, ensuring it remains intact even after page reloads.
+
+## Installation & Setup 🚀
+
+Follow these steps to run the CarsCare application locally:
+
+1. **Clone the Repository**:
+   Open bash
+   git clone https://github.com/your-username/carscare.git](https://github.com/Shaurya-Jha007/CarsCare.git
+   cd CarsCare
+   npm install
+   npm run dev
