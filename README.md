@@ -46,8 +46,8 @@ CarsCare is a web application that allows users to explore and filter cars based
 Follow these steps to run the CarsCare application locally:
 
 1. **Clone the Repository**:
-   Open bash
-   git clone https://github.com/your-username/carscare.git](https://github.com/Shaurya-Jha007/CarsCare.git
-   cd CarsCare
-   npm install
-   npm run dev
+  - Open bash
+  - git clone https://github.com/your-username/carscare.git](https://github.com/Shaurya-Jha007/CarsCare.git
+  - cd CarsCare
+  - npm install
+  - npm run dev
